@@ -1,0 +1,6 @@
+method='get' path='/hello' handler=' handler.hell'
+method='post' path='/createTodo' handler='createTodo.handle'
+method='delete' path='/deleteTodo' handler='deleteTodo.handle'
+method='get' path='/listTodo' handler='listTodo.handle'
+method='put' path='/updateTodo' handler='updateTodo.handle'
+method='get' path='/getTodo' handler='getTodo.handle'
