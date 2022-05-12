@@ -15,7 +15,7 @@ router.use(function(res,req,next){
     next()
 })
 
-router.get("/hello", handler.hello)
+router.get("/hello",handler.hello)
 router.post("/createTodo",createTodo.handler)
 router.delete("/deleteTodo",deleteTodo.handler)
 router.get("/listTodo",listTodo.handler)
